@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #F3C61F;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 28px 0 28px 58px;
+}
+
+#principal{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#divEsquerda{
+    background-color: #514988;
+    padding: 31px 58px 0 58px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+#divEsquerda h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 65px;
+    color: #F3C61F;
+}
+
+#quando{
+    font-size: 28px;
+}
+
+#descricao{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    
+    font-style: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#countdown{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 35px;
+    padding-left: 30px;
+    
+    font-weight: 700;
+    font-size: 64px;
+    color: #514988;
+}
+
+.dhms{
+    margin: 0;
+}
+
+#textoRosa{
+    margin: 0;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #E33881;
+}
+
+#divDireita{
+    width: 50vw;
+    position: relative;
+}
+
+#video{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 96%;
+    padding-bottom: 2%;
+}
+
+#bilheteria{
+    display: flex;
+    margin-bottom: 38px;
+    align-items: center;
+    text-align: center;
+}
+
+#ingressos{
+    width: 60%;
+    margin-right: -48px;
+}
+
+#cards img{
+    width: 22%;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+#textoAmarelo{
+    padding: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    color: #F3C61F;
+}
+
+#botao{
+    width: 40%;
+    margin-top: 50px;
+}
+
+#botao button{
+    width: 510px;
+    height: 130px;
+
+    background: #514988;
+    border-radius: 20px;
+    border: 0px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#botao button:hover{
+    background: #F3C61F;
+}
